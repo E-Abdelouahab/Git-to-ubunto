@@ -1,0 +1,32 @@
+installer git sur ubuntu :
+Commençons donc à utiliser Git. La première chose à faire est de l'installer. Vous pouvez l'obtenir par de nombreuses manières ; les deux principales sont de l'installer à partir des sources ou d'installer un paquet existant sur votre plate-forme.
+Si vous êtes sur un système basé sur Debian, tel qu'Ubuntu, essayez apt-get :
+$ sudo apt install git
+
+
+git init :
+Vous pouvez principalement démarrer un dépôt Git de deux manières. La première consiste à prendre un projet ou un répertoire existant et à l'importer dans Git. La seconde consiste à cloner un dépôt Git existant sur un autre serveur.
+Si vous commencez à suivre un projet existant dans Git, vous n'avez qu'à vous positionner dans le répertoire du projet et saisir :
+$ git init
+
+
+Travailler avec des dépôts distants:
+Pour pouvoir collaborer sur un projet Git, il est nécessaire de savoir comment gérer les dépôts distants. Les dépôts distants sont des versions de votre projet qui sont hébergées sur Internet ou le réseau. Vous pouvez en avoir plusieurs, pour lesquels vous pouvez avoir des droits soit en lecture seule, soit en lecture/écriture. Collaborer avec d'autres personnes consiste à gérer ces dépôts distants, en poussant ou tirant des données depuis et vers ces dépôts quand vous souhaitez partager votre travail.
+la commande est :
+$ git remote add origin (lien du repos)
+
+
+Placer de nouveaux fichiers sous suivi de version:
+Pour commencer à suivre un nouveau fichier, vous utilisez la commande git add. Pour commencer à suivre le fichier , vous pouvez entrer ceci :
+$ git add (fichier)
+
+
+Enregistrer les modifications dans le dépôt:
+Crée un nouveau commit contenant le contenu actuel de l’index et avec le message de validation décrivant la modification.  avec la commande :
+$ git commit -m "message"
+
+
+faire un push d'une branche locale sur un repository distant:
+Pour intégrer la branche au repository distant, il faut utiliser la commande git push.
+avec la commande :
+$ git push origin master

@@ -1,0 +1,15 @@
+screen 1:
+Pour créer une nouvelle branche, il vous suffit d'ajouter le nom de la
+branche à créer à la suite de la commande précédente.
+screen 2:
+pour envoie les modifications locales apportées à la branche youcode1 :
+screen 3:
+L’outil git merge est utilisé pour fusionner une ou plusieurs branches dans la branche que vous avez extraite.
+screen 4: 
+vérification de la branche youcode2 .
+screen 5:
+vérification de la branche youcode1 .
+screen 6:
+Pour supprimer la branche située sur le dépôt distant exécuter ce commande :
+screen 7:
+vérification de la commande
